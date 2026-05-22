@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 5%;
+  background: #1E3888;
+  border-bottom: 2px solid #ffffff;
+  z-index: 10;
+}
+
+.logo {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+
+
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: 5vw;
+  background: linear-gradient(135deg, #191e2c, #2f5ee2);
+  color: white;
+}
+
+.hero-content {
+  max-width: 720px;
+}
+
+.eyebrow {
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #e2e8f0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.4rem;
+  background: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 14px;
+  font-weight: 600;
+  border: 2px solid transparent;
+}
+
+.container {
+  width: 92%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  color: #0f172a;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 220px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 18px;
+  border: 2px solid #0073ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+
+.card h3 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 18px;
+  border: 2px solid #0073ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.profile-row img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+}
+
+.profile-row p {
+  line-height: 1.8;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.tags span {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e3a8a;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid #93c5fd;
+}
+
+
+.footer {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+  border-top: 2px solid #000000;
+}
